@@ -1,12 +1,12 @@
-const Perfil = () => {
+const Profile = () => {
 
-  const nombre = "Javier";
+  const name = "Javier";
 
   return (
 
     <>
 
-      <h2>{nombre}</h2>
+      <h2>{name}</h2>
 
 
       <p>Carrera: Desarrollo de Aplicaciones Web (DAW), 2do año de estudio</p>
@@ -21,4 +21,4 @@ const Perfil = () => {
   );
 };
 
-export default Perfil;
+export default Profile;
