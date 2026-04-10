@@ -2,6 +2,7 @@ import Header from './Header';
 import Footer from './Footer';
 import Profile from './Profile';
 import ProductGallery from './ProductGallery';
+import TablaEstudiantes from './TablaEstudiantes';
 
 const App = () => {
     return (
@@ -14,7 +15,7 @@ const App = () => {
             flexDirection: 'column'
         }}>
             <Header />
-            
+
             <main style={{
                 flex: 1,
                 padding: '20px',
@@ -35,6 +36,9 @@ const App = () => {
                 </section>
 
                 <ProductGallery />
+
+                <TablaEstudiantes />
+                <br></br>
             </main>
 
             <Footer />
