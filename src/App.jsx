@@ -1,6 +1,7 @@
 import Header from './Header';
 import Footer from './Footer';
 import Profile from './Profile';
+import ProductGallery from './ProductGallery';
 
 const App = () => {
     return (
@@ -16,8 +17,8 @@ const App = () => {
             
             <main style={{
                 flex: 1,
-                padding: '0 20px 80px',
-                maxWidth: '800px',
+                padding: '20px',
+                maxWidth: '1200px',
                 margin: '0 auto',
                 width: '100%'
             }}>
@@ -27,10 +28,13 @@ const App = () => {
                     borderRadius: '16px',
                     boxShadow: '0 8px 32px 0 rgba(31, 38, 135, 0.37)',
                     backdropFilter: 'blur(4px)',
-                    border: '1px solid rgba(255, 255, 255, 0.18)'
+                    border: '1px solid rgba(255, 255, 255, 0.18)',
+                    marginBottom: '2rem'
                 }}>
                     <Profile />
                 </section>
+
+                <ProductGallery />
             </main>
 
             <Footer />
